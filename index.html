@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title> INICIO - INFORMATICA MABEN </title>
+        <meta charset="UTF-8">
+
+        <link rel="icon" type="image/png" href="images/icono1.png" />
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+        <style>
+            
+            body{background-color: white;}
+            *{margin: 0 auto; font-family: 'Lato', sans-serif; }
+
+            #cabecera{width: 70%; height: 120px;}
+                #cabecera img{width: 100px; height: 100px; position: relative; top: 23px;}
+                #cabecera #titulo{font-family: 'Aldrich', sans-serif; position: relative; bottom: 30px; left: 105px;}
+            
+            #cajamenu{width: 70%;}
+                #cajamenu ul{list-style: none;}
+                #cajamenu a{text-decoration: none; color: black;}
+            .menu{float: left; padding: 5px; font-family: 'Aldrich', sans-serif; position: relative; left: 320px; font-size: 20px; transition: font-size 1s;}
+                .menu:hover {font-size: 22px;}
+
+            .cortar{clear: both;}
+            
+            .linea{width: 70%; height: 10px;
+                    background-image: url("images/line.png");
+                    background-repeat: repeat-x;
+            }
+
+            #cajafondo{
+                    margin-top: 5px;
+                    border-radius: 10px;
+                    width: 100%; height: 200px; 
+                    background-image: url("images/cabecera3.jpeg"); 
+
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    box-shadow: 2px 6px 10px -2px rgba(0,0,0,0.5);
+                    
+            }
+            #cajanegra{
+                width: 100%; height: 40px; opacity: 60%;
+                background-color: black;
+                position: relative; top: 80%;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+            #textblanco{color: white; position: relative; bottom: 30px; left: 10px; }
+        
+            .cuerpo{width: 70%; }
+                .cuerpo #texto{width: 63%;  float: left;} 
+                #texto #titulo{font-family: 'Aldrich', sans-serif; position: relative; bottom: 16px; left: 20px; font-size: 22px;}
+
+            #imgQuienesSomos{width: 60px; height: 60px;}
+            
+            .cuerpo #sobremi{width: 30%; height: 400px;  
+                            padding: 25px;
+                            color:white;
+                            text-align: center;
+                            float: right;
+                            border-radius: 10px;
+                            background-color: gray;
+                            box-shadow: 2px 6px 10px -2px rgba(0,0,0,0.5);}
+                    #sobremi #borde{border: 1px solid black; width: 230px; height: 150px;} 
+                    #sobremi img{margin-top: 15px; margin-bottom: 15px;}
+                    #sobremi .redes{border-radius: 50%; width: 50px; height: 50px;}
+                    #sobremi #pico{position: relative; bottom: 270px; right: 220px;}
+                    #sobremi #titulo {font-family: 'Aldrich', sans-serif;}
+
+            #flecha{position: relative; bottom: 10px; left: 50%;}
+
+            #final{width: 70%;}
+                 #final #titulo{ font-family: 'Aldrich', sans-serif; font-size: 18px;}
+                #localizacion{margin-left: 100px;  float: left; width: 300px; margin-bottom: 50px;}
+                #localizacion p{ padding: 5px; margin-left: 30px;}
+                #localizacion #mapa{width: 300px; height: 150px; }
+                #proveedores{float: left; margin-left: 100px; width: 300px; height: 150px;}
+                #proveedores #titulo{font-family: 'Aldrich', sans-serif; padding:5px;}
+                    #proveedores a{color:darkred; text-decoration: none;}
+                    #proveedores li{list-style-image: url("images/external_link.png");}
+
+            .imagenborde{border: 2px solid black; height: 70px; width: 70px; margin: 4px;}
+        </style>
+    </head>
+    <body>
+        <div id="cabecera">
+             <img src="images/icono1.png"/>
+             <h1 id="titulo">INFORMATICA MABEN</h1>
+        </div>
+
+        <div id="cajamenu">
+               <ul>
+                   <a href="index.html" > <li class="menu">INICIO</li> </a>
+                    <a href="contacto.html"><li class="menu">CONTACTO</li> </a> 
+                   <li class="cortar"></li>
+               </ul>
+        </div>
+
+        <div class="linea"> </div>
+
+        <div class="cuerpo">
+            <div id="cajafondo">
+                <div id="cajanegra"> </div>
+            </div>
+            <div id="textblanco"> Tienda Informatica Maben - Móstoles, Madrid </div>
+        
+            <div id="texto"> 
+                <img id="imgQuienesSomos" src="images/quienessomos.png"> 
+                <span id="titulo"> ¿QUIENES SOMOS? </span>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque odio velit, imperdiet ac rutrum scelerisque, elementum at metus. Nullam elit ante, sodales et varius in, dictum non neque. Mauris placerat, diam sit amet luctus porta, eros ex molestie nisl, id luctus velit </p> <br/>
+                <p> Urna eu nibh. Aliquam tincidunt elementum quam ut convallis. Cras malesuada nisi ac felis mattis, nec semper elit dapibus. Sed pulvinar suscipit nulla quis dictum. Ut semper nisl vitae tempus rhoncus. Praesent sodales vitae ligula quis fringilla. Sed sit amet massa ut arcu eleifend blandit.</p> <br/>
+                <p> Vivamus rutrum libero et lacus commodo, cursus malesuada est pulvinar. Suspendisse ullamcorper, justo sed suscipit interdum, ipsum nulla facilisis felis, et elementum sem erat vitae sapien. In feugiat diam ac magna pharetra, ac mollis felis maximus. Praesent vestibulum dictum pellentesque. Phasellus varius imperdiet accumsan. Nam congue congue odio, at dignissim nulla gravida eget. Donec ultricies dui et risus sollicitudin, in interdum ligula viverra. Duis accumsan facilisis ipsum quis luctus. Suspendisse laoreet ligula eget lorem vehicula pulvinar sit amet non augue. Suspendisse nisi libero, iaculis et semper quis, mattis a neque. Praesent eu nibh dolor. Praesent in odio vel urna ultricies dapibus eu eu risus. Vivamus mi velit, sodales at justo sed, eleifend condimentum nibh. Proin luctus eget orci at luctus.</p>
+                </br>
+            </div>
+            <div id="sobremi">
+                <p id="titulo"> CONÓCENOS </p>
+                <img id="borde" src="images/conocenos.jpg">
+                <p> ¡Hola! Mi nombre es José. Tengo 33 años y soy técnico informático en Maben desde hace 5 años. </p> <br/>
+                <p> Si tienes problemas con tu ordenador o teléfono movil ó si necesitas uno nuevo, aquí podemos ayudarte. </p>
+                <img class="redes" src="images/facebook.png">
+                <img class="redes" src="images/instagram.png">
+                <img id="pico" src="images/arrow.png">
+            </div>
+            <div class="cortar"></div>
+        </div>
+
+        <div class="linea"> </div>
+        <img id="flecha" src="images/top.png">
+
+        <div id="final">
+            <div id="localizacion">
+                <p id="titulo"> NUESTRA LOCALIZACION </p> 
+                <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.598155640747!2d-3.8578300496690523!3d40.32907506878971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418e9d30b516db%3A0xa30f4228946cce6d!2smaben%20techonology%20sl!5e0!3m2!1ses!2ses!4v1623081695171!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div id="proveedores">
+                <p id="titulo">NUESTROS PROVEEDORES</p> 
+                <ul> 
+                    <a href="https://www.mi.com/es/"> <li>XIAOMI</li> </a>
+                    <a href="https://www.digimobil.es"> <li>DIGI Mobil & Fibra</li> </a>
+                    <a href="https://www.samsung.com/es/"> <li>SAMSUNG</li> </a>
+                    <a href="https://www.sony.es"> <li>SONY</li> </a>
+                </ul>
+            </div>
+            <div class="cortar"></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,185 @@
+<html> 
+    <head>
+        <title> CONTACTO - INFORMATICA MABEN </title>
+        <meta charset="UTF-8">
+
+        <link rel="icon" type="image/png" href="images/icono1.png" />
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+        <style>
+            
+            body{background-color: white;}
+            *{margin: 0 auto; font-family: 'Lato', sans-serif; }
+
+            #cabecera{width: 70%; height: 120px;}
+                #cabecera img{width: 100px; height: 100px; position: relative; top: 23px;}
+                #cabecera #titulo{font-family: 'Aldrich', sans-serif; position: relative; bottom: 30px; left: 105px;}
+            
+            #cajamenu{width: 70%;}
+                #cajamenu ul{list-style: none;}
+                #cajamenu a{text-decoration: none; color: black;}
+            .menu{float: left; padding: 5px; font-family: 'Aldrich', sans-serif; position: relative; left: 320px; font-size: 20px; transition: font-size 1s;}
+                .menu:hover {font-size: 22px;}
+            .cortar{clear: both;}
+            
+            .linea{width: 70%; height: 10px;
+                    background-image: url("images/line.png");
+                    background-repeat: repeat-x;
+            }
+
+            #cajafondo{
+                    margin-top: 5px;
+                    border-radius: 10px;
+                    width: 100%; height: 200px; 
+                    background-image: url("images/cabecera3.jpeg"); 
+
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    box-shadow: 2px 6px 10px -2px rgba(0,0,0,0.5);
+                    
+            }
+            #cajanegra{
+                width: 100%; height: 40px; opacity: 60%;
+                background-color: black;
+                position: relative; top: 80%;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+            #textblanco{color: white; position: relative; bottom: 30px; left: 10px; }
+        
+            .cuerpo{width: 70%; }
+                .cuerpo #texto{width: 63%;  float: left;} 
+                #texto #titulo{font-family: 'Aldrich', sans-serif; position: relative; bottom: 16px; left: 20px; font-size: 22px;}
+
+            #imgQuienesSomos{width: 60px; height: 60px;}
+            
+            .cuerpo #sobremi{width: 30%; height: 400px;  
+                            padding: 25px;
+                            color:white;
+                            text-align: center;
+                            float: right;
+                            border-radius: 10px;
+                            background-color: gray;
+                            box-shadow: 2px 6px 10px -2px rgba(0,0,0,0.5);}
+                    #sobremi #borde{border: 1px solid black; width: 230px; height: 150px;} 
+                    #sobremi img{margin-top: 15px; margin-bottom: 15px;}
+                    #sobremi .redes{border-radius: 50%; width: 50px; height: 50px;}
+                    #sobremi #pico{position: relative; bottom: 270px; right: 220px;}
+                    #sobremi #titulo {font-family: 'Aldrich', sans-serif;}
+
+            #flecha{position: relative; bottom: 10px; left: 50%;}
+
+            #final{width: 70%;}
+                 #final #titulo{ font-family: 'Aldrich', sans-serif; font-size: 18px;}
+                #localizacion{margin-left: 100px;  float: left; width: 300px; margin-bottom: 50px;}
+                #localizacion p{ padding: 5px; margin-left: 30px;}
+                #localizacion #mapa{width: 300px; height: 150px; }
+                #proveedores{float: left; margin-left: 100px; width: 300px; height: 150px;}
+                #proveedores #titulo{font-family: 'Aldrich', sans-serif; padding:5px;}
+                    #proveedores a{color:darkred; text-decoration: none;}
+                    #proveedores li{list-style-image: url("images/external_link.png");}
+
+            .imagenborde{border: 2px solid black; height: 70px; width: 70px; margin: 4px;}
+
+            .boton{margin:4px; width: 90px; height: 30px; border-radius: 20px; background-color: #AED6F1; border: 1px solid black; font-size: 15px; transition: font-size 1s;}
+            .boton:hover{font-size: 17px;}
+
+            #tabla{text-align: center; background-color: #5DADE2 ; border: 2px double white; width: 900px;}
+            #tabla #titulo {font-family: 'Aldrich', sans-serif; font-size:19px;}
+            #tabla td{border: 2px double white; padding: 3px;}
+            .celdagrande{height: 90px;}
+        </style>
+    </head>
+    <body>
+        <div id="cabecera">
+            <img src="images/icono1.png"/>
+            <h1 id="titulo">INFORMATICA MABEN</h1>
+       </div>
+
+        <div id="cajamenu">
+               <ul>
+                   <a href="index.html" > <li class="menu">INICIO</li> </a>
+                    <a href="contacto.html"><li class="menu">CONTACTO</li> </a> 
+                   <li class="cortar"></li>
+               </ul>
+        </div>
+
+        <div class="linea"> </div>
+
+        <div class="cuerpo">
+            <div id="cajafondo">
+                <div id="cajanegra"> </div>
+            </div>
+            <div id="textblanco"> Tienda Informatica Maben - Móstoles, Madrid </div>
+            </br>
+
+            <form name="calificacion" method="post">
+                <table id="tabla">
+                    <caption id="titulo"> FORMULARIO DE CONTACTO </caption>
+                    <tr> 
+                        <td><label>Nombre: </label><input name="nombre" type="text" placeholder="Nombre"></td>
+                        <td><label>Apellido: </label><input name="apellido" type="text" placeholder="Apellido"></td>
+                    </tr>
+                    <tr> 
+                        <td><label>Sexo: </label> 
+                            <label> H: </label><input name="sexo" type="radio" value="H"> 
+                            <label> M: </label><input name="sexo" type="radio" value="M">
+                        </td>
+                        <td><label>Mayor de edad: </label> <input name="mayoredad" type="checkbox" value="+18"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label>Tu correo: </label> <input name="correo" type="email" placeholder="tucorreo@gmail.es"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label>Número de teléfono: </label> <input name="telefono" type="text" placeholder="Num. de teléfono"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="celdagrande">
+                            <label>¿Sobre que tema es su consulta?</label><br/><br/> 
+                            <select name="seccion">
+                                <option selected> REPARACION DE ORDENADOR </option>
+                                <option> REPARACION DE TELEFONO </option>
+                                <option> COMPRA DISPOSITIVO MOVIL / ORDENADOR </option>
+                             </select>
+                              
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="celdagrande"> <label> Cuéntenos sobre su consulta, y le responderemos lo antes posible: <br/> <br/></label>
+                            <textarea cols="60" rows="5" placeholder="Escribe algo.."></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="botonhover"> <input  class="boton" name="Enviar" type="submit" value="Enviar"> </td>
+                        <td class="botonhover"> <input name="Borrar" type="reset" value="Borrar" class="boton"> </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        </br>
+        <div class="linea"> </div>
+        <img id="flecha" src="images/top.png">
+
+        <div id="final">
+            <div id="localizacion">
+                <p id="titulo"> NUESTRA LOCALIZACION </p> 
+                <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.598155640747!2d-3.8578300496690523!3d40.32907506878971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418e9d30b516db%3A0xa30f4228946cce6d!2smaben%20techonology%20sl!5e0!3m2!1ses!2ses!4v1623081695171!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div id="proveedores">
+                <p id="titulo">NUESTROS PROVEEDORES</p> 
+                <ul> 
+                    <a href="https://www.mi.com/es/"> <li>XIAOMI</li> </a>
+                    <a href="https://www.digimobil.es"> <li>DIGI Mobil & Fibra</li> </a>
+                    <a href="https://www.samsung.com/es/"> <li>SAMSUNG</li> </a>
+                    <a href="https://www.sony.es"> <li>SONY</li> </a>
+                </ul>
+            </div>
+            <div class="cortar"></div>
+        </div>
+    </body>
+</html>
